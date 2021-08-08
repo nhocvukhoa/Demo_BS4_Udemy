@@ -1,0 +1,38 @@
+@media(max-width: 991px){
+    .feature{
+        flex-direction: column-reverse;
+    }
+    .feature .feature-img{
+        margin-bottom: 20px;
+    }
+}
+@media(max-width: 576px){
+   .navbar-nav{
+       margin-top: 10px;
+   }
+   .nav-item:first-child{
+    border-top: 1px solid #fff;
+   }
+   .our-customer{
+       width: 100%;
+   }
+   
+}
+@media(max-width: 480px){
+    .carousel-item img{
+        height: 380px;
+    }
+    .carousel .carousel-item{
+        height: 380px;
+        position: relative;
+    }
+}
+@media(max-width: 320px){
+    .carousel-item img{
+        height: 330px;
+    }
+    .carousel .carousel-item{
+        height: 330px;
+        position: relative;
+    }
+}
